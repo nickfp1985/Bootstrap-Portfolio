@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-Using Bootstrap, recreate your portfolio site with a responsive layout and navbar.
+# Basic-Portfolio
+A professional portfolio site to showcase my Full Stack Developer projects and skills.
