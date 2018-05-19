@@ -1,0 +1,143 @@
+/* general */
+
+html,
+body {
+    height: 100%;
+    background-color: #000;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(212, 96%, 56%);
+    font-weight: bold;
+}
+
+#wrapper {
+    background-image: url("../images/black-web.png");
+    background-repeat: repeat;
+    height: 100%;
+}
+
+footer {
+    padding-top: 10px;
+    border-top: 2px solid hsl(212, 96%, 56%);
+    background-color: lightgrey;
+  }
+
+.social-icon {
+    max-width: 60px;
+}
+
+/* heading and navbar styles */
+
+.nav li {
+    display: inline-block;
+    float: none;
+}
+
+.navbar {
+    background-color: hsl(52, 100%, 69%);
+}
+
+.navbar-default {
+    border: none;
+    border-bottom: 2px solid hsl(212, 96%, 56%);
+}
+
+.navbar-header,
+.navbar-default .navbar-brand {
+    background-color: hsl(212, 96%, 56%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+.margin-fixed-navbar {
+    height: 80px;
+}
+
+
+
+/* contact */
+
+.btn-primary {
+    background-color: hsl(212, 96%, 56%);
+    border-color: #2D918D;
+}
+
+.btn-primary:hover {
+    background-color: hsl(52, 100%, 69%);
+    border-color: hsl(212, 96%, 56%);
+    color: black;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    background-color: hsl(219, 97%, 23%);
+    border-color: hsl(212, 96%, 56%);
+}
+
+.btn-primary.active,
+.btn-primary:active {
+    background-color: #138581;
+    border-color: #138581;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+    background-color: #138581;
+    border-color: #138581;
+}
+
+label {
+    color: white;
+}
+
+
+/* portfolio */
+
+.work {
+    position: relative;
+    margin: 15px auto;
+    max-width: 640px;
+}
+
+.work .work-lbl {
+    display: flex;
+    display: -webkit-flex;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    min-height: 20%;
+    background-color: hsl(212, 96%, 56%);
+}
+
+.work-lbl h3 {
+    margin: auto;
+}
+
+.work-lbl h3 a {
+    color: white;
+}
+
+.work-lbl h3 a:hover {
+    color: hsl(52, 100%, 69%);
+    text-decoration: none !important;
+}
+
